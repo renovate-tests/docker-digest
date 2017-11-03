@@ -1,2 +1,2 @@
-FROM node:8
+FROM node:8@sha256:abcdefghijklmnop
 RUN something
