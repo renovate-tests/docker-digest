@@ -1,3 +1,8 @@
 {
-  "extends": [":library"]
+  "extends": [":library"],
+  "automerge": true,
+  "automergeType": "branch-push",
+  "major": {
+    "automerge": false
+  }
 }
