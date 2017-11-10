@@ -1,3 +1,3 @@
 # a comment
-FROM node:8@sha256:abcdefghijklmnop as base
+FROM node:6.9
 RUN something
