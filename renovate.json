@@ -1,8 +1,11 @@
 {
-  "extends": [":library"],
-  "automerge": true,
-  "automergeType": "branch-push",
-  "major": {
-    "automerge": true
-  }
+  "docker": {
+    "major": {
+      "enabled": true
+    },
+    "minor": {
+      "enabled": true
+    }
+  },
+  "labels": ["2-ready", "pri3-normal"]
 }
