@@ -1,3 +1,3 @@
 # a comment
-FROM node:6.9@sha256:cf454b60ee452473f963f60ff18ba75b8e900174aae9bf0e8051e5a83db85b30
+FROM node:11.10@sha256:886746fb8d0a81ba0118c4cf0eaf9875d6a52d5e915fe4f1bc8b50419a5d2ba7
 RUN something
